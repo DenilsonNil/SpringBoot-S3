@@ -1,0 +1,11 @@
+amazon:
+  config:
+    accessKey: ${AMAZON_CONFIG_ACCESS_KEY}
+    secretKey: ${AMAZON_CONFIG_SECRET_KEY}
+    region: ${AMAZON_CONFIG_REGION}
+    upload:
+      files:
+        directory: ${AMAZON_CONFIG_UPLOAD_FILES_DIR}
+    download:
+      files:
+        directory: ${AMAZON_CONFIG_DOWNLOAD_FILES_DIR}
